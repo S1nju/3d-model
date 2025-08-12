@@ -1,0 +1,10 @@
+@import 'tailwindcss';
+@font-face {
+  font-family: 'Anton';
+
+  src:local('./assets/Anton-Regular.ttf'), url('./assets/Anton-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Anton', sans-serif;
+}

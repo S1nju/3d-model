@@ -523,7 +523,7 @@ const ModelViewer: FC<ViewerProps> = ({
           gl.toneMapping = THREE.ACESFilmicToneMapping;
           gl.outputColorSpace = THREE.SRGBColorSpace;
         }}
-        camera={{ fov: 5, position: [0, 0, 12], near: 0.01, far: 500 }}
+        camera={{ fov: 100, position: [0, 0,camZ], near: 0.01, far: 100 }}
         style={{ touchAction: "pan-y pinch-zoom" }}
       >
         {environmentPreset !== "none" && (

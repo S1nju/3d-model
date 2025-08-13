@@ -12,17 +12,16 @@ export const About = () => {
 
         <section className="pc flex w-full lg:w-1/2 flex-col justify-center items-center h-64 md:h-80 lg:h-96">
                  <ModelViewer
-                    url='https://cdn.jsdelivr.net/gh/S1nju/s2nju@main/src/assets/gaming_pc_with_curved_monitor.glb'
+                    url='https://raw.githubusercontent.com/S1nju/s2nju/main/src/assets/toy_robot_blue.glb'
                     width='100%'
-
                     enableMouseParallax={true}
                     enableManualZoom={false}
-                   
-                    modelYOffset={0.9}
+                    autoFrame={true}
+                 
                     enableManualRotation={false}
-                    defaultRotationX={30}
-                    
-              
+            defaultZoom={0.0002}
+                minZoomDistance={1}
+                maxZoomDistance={1}
                     showScreenshotButton={false}
                 />
         </section>

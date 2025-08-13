@@ -11,19 +11,18 @@ export const About = () => {
         <div className="flex flex-col lg:flex-row justify-center items-center gap-6 md:gap-8 lg:gap-10 max-w-7xl mx-auto w-full">
 
         <section className="pc flex w-full lg:w-1/2 flex-col justify-center items-center h-64 md:h-80 lg:h-96">
-              <ModelViewer
-                    url='https://raw.githubusercontent.com/S1nju/s2nju/main/src/assets/toy_robot_blue.glb'
+                 <ModelViewer
+                    url='https://cdn.jsdelivr.net/gh/S1nju/s2nju@main/src/assets/gaming_pc_with_curved_monitor.glb'
                     width='100%'
+
                     enableMouseParallax={true}
                     enableManualZoom={false}
-                    autoFrame={true}
-                    defaultRotationX={150}
-                    modelXOffset={-0.6}
-                 
+                   
+                    modelYOffset={0.9}
                     enableManualRotation={false}
-            defaultZoom={0.0002}
-                minZoomDistance={1}
-                maxZoomDistance={1}
+                    defaultRotationX={30}
+                    
+              
                     showScreenshotButton={false}
                 />
         </section>

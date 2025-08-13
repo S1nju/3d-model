@@ -15,13 +15,13 @@ export const About = () => {
                     url='https://raw.githubusercontent.com/S1nju/s2nju/main/src/assets/gaming_pc_with_curved_monitor.glb'
                     width='100%'
                     height='100%'
-                    enableMouseParallax={false}
+                    enableMouseParallax={true}
                     enableManualZoom={false}
                     modelYOffset={-2}
                     enableManualRotation={false}
                     defaultRotationX={30}
                     modelXOffset={-0.2}
-                    autoFrame={true}
+              
                     showScreenshotButton={false}
                 />
         </section>

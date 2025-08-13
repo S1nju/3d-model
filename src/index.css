@@ -1,10 +1,45 @@
 @import 'tailwindcss';
-@font-face {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  @font-face {
   font-family: 'Anton';
 
   src:local('./assets/Anton-Regular.ttf'), url('./assets/Anton-Regular.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'circularweb-book';
+  src: url('./assets/CircularStd-Book.woff2') format('woff2');
+  src: url('./assets/CircularStd-Book.woff') format('woff');
+}
+@font-face {
+  font-family: 'general';
+  src: url('./assets/general.woff2') format('woff2');
+  
+}
+@font-face {
+  font-family: 'robert-medium';
+  src: url('./assets/robert-medium.woff2') format('woff2');
+
+}
+@font-face {
+  font-family: 'robert-regular';
+  src: url('./assets/robert-regular.woff2') format('woff2');
+
+}
+@font-face {
+  font-family: 'zenty-regular';
+  src: url('./assets/zenty-regular.woff2') format('woff2');
+
+}
+ 
+}
+
 
 body {
   font-family: 'Anton', sans-serif;
+  overflow-x: hidden;
+  background-color: white
+
 }

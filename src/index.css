@@ -40,6 +40,30 @@
 body {
   font-family: 'Anton', sans-serif;
   overflow-x: hidden;
-  background-color: white
+  background-color: white;
+  max-width: 100vw;
+}
 
+/* Ensure all elements stay within viewport */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Prevent GSAP animations from causing overflow */
+.gsap-container {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Mobile-specific overflow prevention */
+@media (max-width: 768px) {
+  * {
+    overflow-x: hidden !important;
+  }
+  
+  .transform-gpu {
+    will-change: transform;
+    backface-visibility: hidden;
+  }
 }

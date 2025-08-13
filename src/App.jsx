@@ -16,6 +16,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+ 
       <Experience />
       <Contact />
     </ReactLenis>

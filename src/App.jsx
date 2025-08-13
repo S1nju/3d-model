@@ -6,6 +6,7 @@ import { About } from './components/sections/about/About'
 import { Skills } from './components/sections/skills/Skills'
 import { ReactLenis } from 'lenis/react';
 import Experience from './components/sections/experience/Experience'
+import Contact from './components/sections/contact/Contact'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -16,6 +17,7 @@ function App() {
       <About />
       <Skills />
       <Experience />
+      <Contact />
     </ReactLenis>
     </>
   )

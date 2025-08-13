@@ -12,7 +12,7 @@ export const About = () => {
 
         <section className="pc flex w-full lg:w-1/2 flex-col justify-center items-center h-64 md:h-80 lg:h-96">
                  <ModelViewer
-                    url='https://raw.githubusercontent.com/S1nju/3d-model/main/src/assets/gaming_pc_with_curved_monitor.glb'
+                    url='https://raw.githubusercontent.com/S1nju/s2nju/main/src/assets/gaming_pc_with_curved_monitor.glb'
                     width='100%'
                     height='100%'
                     enableMouseParallax={false}

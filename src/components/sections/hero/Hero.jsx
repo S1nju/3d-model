@@ -87,7 +87,7 @@ function Hero() {
             
             <div className="relative bg-white/5 backdrop-blur-sm rounded-2xl p-4 md:p-6 border border-white/10">
               <ModelViewer
-                url='https://raw.githubusercontent.com/S1nju/3d-model/main/src/assets/A_modern_developer_de_0812182003_texture.glb'
+                url='https://raw.githubusercontent.com/S1nju/s2nju/main/src/assets/A_modern_developer_de_0812182003_texture.glb'
                 width='100%'
                 height={modelHeight}
                 enableManualZoom={false}

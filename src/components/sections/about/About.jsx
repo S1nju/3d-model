@@ -18,7 +18,7 @@ export const About = () => {
                     enableManualZoom={false}
                     autoFrame={true}
                     defaultRotationX={120}
-                    modelXOffset={-2}
+                    modelXOffset={-1}
                  
                     enableManualRotation={false}
             defaultZoom={0.0002}

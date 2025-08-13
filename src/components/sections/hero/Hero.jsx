@@ -93,9 +93,7 @@ function Hero() {
                 enableManualZoom={false}
                 enableMouseParallax={true}
                 autoRotate={true}
-                defaultZoom={0.0002}
-                minZoomDistance={1}
-                maxZoomDistance={1}
+          
                 autoRotateSpeed={0.1}
                 showScreenshotButton={false}
               />

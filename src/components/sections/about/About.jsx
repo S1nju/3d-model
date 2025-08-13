@@ -18,9 +18,9 @@ export const About = () => {
                     enableMouseParallax={true}
                     enableManualZoom={false}
                    
-         
+                    modelYOffset={0.5}
                     enableManualRotation={false}
-                 
+                    defaultRotationX={-30}
                     
               
                     showScreenshotButton={false}
